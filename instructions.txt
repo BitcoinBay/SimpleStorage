@@ -1,0 +1,37 @@
+We’re gonna use a development framework called Truffle
+To deploy a smart contract to the testrpc.
+
+0 - Install node and npm
+
+1 - install truffle
+	-install testrpc
+
+2 -Mkdir Folder
+Truffle init
+
+
+3 - truffle create contract contractname
+
+4-  install atom
+Open contract project
+install ethereum package in atom
+
+5- write smart contract
+
+6- truffle compile
+
+7. - run testrpc with your mnemonic
+	truffle create migration simple
+	migration file is code that deploys the contract programatically.
+
+Write code to deploy smart contract.
+
+8-  configure truffle network in truffle.js
+
+Truffle migrate.
+
+
+9- connect testrpc to myetherwallet
+	add in contract address and ABI
+
+10 - Interact with the smart contract
